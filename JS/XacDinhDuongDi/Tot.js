@@ -10,7 +10,7 @@ function Tot(id){
 		case true:
 			if(iX == 2){
 				
-				for(i = iX + 1; i <= iX + 2; i ++){
+				for( let i = iX + 1; i <= iX + 2; i ++){
 					if(isRong(i, iY))
 						DoiMau(i, iY);
 					if(isCoDen(i, iY))

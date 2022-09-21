@@ -1,6 +1,8 @@
 var imported = document.createElement('script');
+// đồng bộ
 imported.src = 'JS/Sources.js';
 document.head.appendChild(imported);
+// dùng để nối thể script có thuộc tính src
 
 //
 function VeBanCoTrangDen(){
@@ -20,7 +22,9 @@ function VeBanCoTrangDen(){
 // Đặt các quân cờ
 function DatCo(){
 	for( i = 3; i < 7; i++){
+		// lên
 		for(j = 1; j < 9; j++){
+			//sang trái
 			document.getElementById("i" + i.toString() + j.toString()).src = "QuanCo/Rong.png";
 		}
 	}

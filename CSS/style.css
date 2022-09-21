@@ -4,13 +4,13 @@ body{
 	background-color:#CC99FF;
 }
 /*CSS Div Main*/
-#divMain{
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
+/*#divMain{*/
+/*  position: fixed;*/
+/*  top: 0;*/
+/*  left: 0;*/
+/*  bottom: 0;*/
+/*  right: 0;*/
+/*}*/
 /*CSS Div ThongTin*/
 #divNguoiChoiCoDen{
 	float:left;
@@ -38,7 +38,6 @@ body{
 #tblNguoiCoDen td, #tblNguoiChoiCoDo td{
 	margin:auto;
 	text-align:center;
-	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	font-weight:lighter;
 	font-size:40px;
 	min-height: 100%;
@@ -56,9 +55,6 @@ body{
 	float: left;
 	width: 25%;
 	height:100%;
-}
-#PointCoDen {
-	
 }
 
 #PointCoDo {
